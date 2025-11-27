@@ -1,2 +1,2 @@
 #!/bin/bash
-i=0;while IFS= read -r l;do if [ $((i%2)) = 0 ];then echo "$l";fi;i=$((i+1));done
+cut -d' ' -f1
