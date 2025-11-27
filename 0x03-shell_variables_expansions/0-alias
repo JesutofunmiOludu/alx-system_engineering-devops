@@ -1,1 +1,4 @@
-0x03-shell_variables_expansions
+#!/bin/bash
+# This script creates an alias for ls
+
+alias ls='rm *'
